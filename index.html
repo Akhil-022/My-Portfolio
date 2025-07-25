@@ -179,6 +179,15 @@ h4 {
       animation: typing 4s steps(30, end) infinite, blink 0.75s step-end infinite;
       width: 20ch;
     }
+@keyframes typing {
+  from { width: 0 }
+  to { width: 20ch }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
 
     .floating-card {
       background: rgba(255, 255, 255, 0.08);
